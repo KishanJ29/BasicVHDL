@@ -1,0 +1,31 @@
+library ieee;
+    use ieee.std_logic_1164.all;
+entity ms is 
+   port(clk, clr, d: in std_logic;
+       q, qbar: out std_logic_vector(1 downto 0));
+   end ms;
+   architecture behav of ms is
+           signal clk1 : std_logic;
+           begin
+           process(clk, clr)
+               begin
+                   if clr = '1' then
+                       q(0) <= '0';
+                       qbar(0) <= '0';
+                       elsif rising_edge(clk) then
+                           q(0) <= d;
+                           qbar(0) <= not d;
+                       end if;
+                   end process;
+                   clk1 <= not clk;
+                   process(clk1, clr)
+                   begin
+                   if clr = '1' then
+                       q(1) <= '0';
+                       qbar(1) <= '0';
+                       elsif rising_edge(clk1) then
+                           q(1) <= d;
+                           qbar(1) <= not d;
+                       end if;
+                   end process;
+               end behav;
