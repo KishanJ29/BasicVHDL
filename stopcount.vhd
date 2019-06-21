@@ -1,0 +1,38 @@
+library ieee;
+    use ieee.std_logic_1164.all;
+    use ieee.std_logic_arith.all;
+        use ieee.std_logic_unsigned.all;
+entity stopcount is 
+  port(clk  : in std_logic;
+      din : in std_logic_vector(3 downto 0)
+      );
+       end stopcount;
+  architecture behave of stopcount is
+   -- signal aclk :std_logic;
+    signal clr,q :std_logic;
+    signal fclr :std_logic;
+    signal dec :std_logic;
+    signal a :std_logic_vector(3 downto 0);
+    begin
+  Counter: process(clk,fclr)
+          begin
+            if fclr= '1' then
+             a <= din;
+             elsif rising_edge(clk) then
+               a <= a+1;
+           end if ;
+        end process Counter;
+           dec <= a(3) and a(2) and not a(1) and a(0);
+    FlipFlop: process (dec, clr)
+        begin
+                if clr = '1' then
+                q <= '0';
+                elsif falling_edge(dec) then
+                 q <= '1';     
+             end if;
+            end process FlipFlop;
+              fclr <= q or clr;
+              
+                end behave;
+               
+            
