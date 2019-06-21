@@ -1,0 +1,57 @@
+D:/Kishan/VHDL_Project/halfadder.vhd {1 {vcom -work work -2002 -explicit D:/Kishan/VHDL_Project/halfadder.vhd
+Model Technology ModelSim ALTERA vcom 6.3g_p1 Compiler 2008.08 Aug 13 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity halfadd
+-- Compiling architecture behave of halfadd
+
+} {} {}} D:/Kishan/VHDL_Project/ckt1.vhd {1 {vcom -work work -2002 -explicit D:/Kishan/VHDL_Project/ckt1.vhd
+Model Technology ModelSim ALTERA vcom 6.3g_p1 Compiler 2008.08 Aug 13 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity ckt1
+-- Compiling architecture behav of ckt1
+
+} {} {}} D:/Kishan/VHDL_Project/HW1.vhd {1 {vcom -work work -2002 -explicit D:/Kishan/VHDL_Project/HW1.vhd
+Model Technology ModelSim ALTERA vcom 6.3g_p1 Compiler 2008.08 Aug 13 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity hw1
+-- Compiling architecture behave of hw1
+
+} {} {}} D:/Kishan/VHDL_Project/ckt2.vhd {1 {vcom -work work -2002 -explicit D:/Kishan/VHDL_Project/ckt2.vhd
+Model Technology ModelSim ALTERA vcom 6.3g_p1 Compiler 2008.08 Aug 13 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity ckt2
+-- Compiling architecture behav of ckt2
+
+} {} {}} D:/Kishan/VHDL_Project/ckt3.vhd {1 {vcom -work work -2002 -explicit D:/Kishan/VHDL_Project/ckt3.vhd
+Model Technology ModelSim ALTERA vcom 6.3g_p1 Compiler 2008.08 Aug 13 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity ckt3
+-- Compiling architecture behav of ckt3
+
+} {} {}} D:/Kishan/VHDL_Project/plleadd.vhd {1 {vcom -work work -2002 -explicit D:/Kishan/VHDL_Project/plleadd.vhd
+Model Technology ModelSim ALTERA vcom 6.3g_p1 Compiler 2008.08 Aug 13 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity plleadd
+-- Compiling architecture behave of plleadd
+
+} {} {}} D:/Kishan/VHDL_Project/G2BC.vhd {1 {vcom -work work -2002 -explicit D:/Kishan/VHDL_Project/G2BC.vhd
+Model Technology ModelSim ALTERA vcom 6.3g_p1 Compiler 2008.08 Aug 13 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity g2bc
+-- Compiling architecture behav of g2bc
+
+} {} {}} D:/Kishan/VHDL_Project/b2gc.vhd {1 {vcom -work work -2002 -explicit D:/Kishan/VHDL_Project/b2gc.vhd
+Model Technology ModelSim ALTERA vcom 6.3g_p1 Compiler 2008.08 Aug 13 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity b2gc
+-- Compiling architecture behav of b2gc
+
+} {} {}}

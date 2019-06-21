@@ -1,0 +1,51 @@
+D:/Kishan/VHDL_Project/nor.vhd {1 {vcom -work work -2002 -explicit D:/Kishan/VHDL_Project/nor.vhd
+Model Technology ModelSim ALTERA vcom 6.3g_p1 Compiler 2008.08 Aug 13 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate
+-- Compiling architecture nor_gatearc of nor_gate
+
+} {} {}} D:/Kishan/VHDL_Project/exnor.vhd {1 {vcom -work work -2002 -explicit D:/Kishan/VHDL_Project/exnor.vhd
+Model Technology ModelSim ALTERA vcom 6.3g_p1 Compiler 2008.08 Aug 13 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity exnor_gate
+-- Compiling architecture exnor_gatearc of exnor_gate
+
+} {} {}} D:/Kishan/VHDL_Project/nand_gate.vhd {1 {vcom -work work -2002 -explicit D:/Kishan/VHDL_Project/nand_gate.vhd
+Model Technology ModelSim ALTERA vcom 6.3g_p1 Compiler 2008.08 Aug 13 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate
+-- Compiling architecture nand_gatearc of nand_gate
+
+} {} {}} D:/Kishan/VHDL_Project/not_gate.vhd {1 {vcom -work work -2002 -explicit D:/Kishan/VHDL_Project/not_gate.vhd
+Model Technology ModelSim ALTERA vcom 6.3g_p1 Compiler 2008.08 Aug 13 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity not_gate
+-- Compiling architecture or_gatearc of not_gate
+
+} {} {}} D:/Kishan/VHDL_Project/or_gate.vhd {1 {vcom -work work -2002 -explicit D:/Kishan/VHDL_Project/or_gate.vhd
+Model Technology ModelSim ALTERA vcom 6.3g_p1 Compiler 2008.08 Aug 13 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity or_gate
+-- Compiling architecture orgate_arc of or_gate
+
+} {} {}} D:/Kishan/VHDL_Project/exor_gate.vhd {1 {vcom -work work -2002 -explicit D:/Kishan/VHDL_Project/exor_gate.vhd
+Model Technology ModelSim ALTERA vcom 6.3g_p1 Compiler 2008.08 Aug 13 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity exor_gate
+-- Compiling architecture exor_gatearc of exor_gate
+
+} {} {}} C:/altera/81/modelsim_ae/examples/and_gate.vhd {1 {vcom -work work -2002 -explicit C:/altera/81/modelsim_ae/examples/and_gate.vhd
+Model Technology ModelSim ALTERA vcom 6.3g_p1 Compiler 2008.08 Aug 13 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity and_gate
+-- Compiling architecture and_gatearc of and_gate
+
+} {} {}}
